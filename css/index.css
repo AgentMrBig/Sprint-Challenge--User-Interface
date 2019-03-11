@@ -144,3 +144,357 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*==START===== Eric Hendrix - my css =====*/
+
+
+/*==START===== nav code =====*/
+header{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.topNav-flex{
+    display: flex;
+    /*justify-content: space-around;*/
+    justify-content:space-between;
+    align-items:flex-end;
+    /*flex-direction:column;  column | row */
+    flex-direction:row; /* column | row */
+    margin-bottom: 25px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black; 
+    padding: 25px;
+    padding-top: 60px;
+    margin-top: 30px;
+    padding-bottom:0px;
+   
+}
+
+header nav a:hover{
+    
+}
+
+header nav .logo{
+    padding: 0;
+    align-self: space-between;
+}
+
+.navLogoFix{
+    padding-left: 0px;
+}
+
+.grow { 
+    transition: scale .2s ease-in-out; 
+}
+.grow:hover { 
+    transform: scale(1.5); 
+}
+
+/*==END===== nav code =====*/
+
+/*==START===== box styles =====*/
+.middle-content .boxes .box.box1{
+    background-color: teal;
+}
+
+
+.middle-content .boxes .box.box2{
+    background-color: gold;
+}
+
+.middle-content .boxes .box.box3{
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box.box4{
+    background-color: coral;
+}
+
+.middle-content .boxes .box.box5{
+    background-color: crimson;
+}
+
+.middle-content .boxes .box.box6{
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box.box7{
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box.box8{
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box.box9{
+    background-color: indigo;
+}
+
+.middle-content .boxes .box.box10{
+    background-color: dodgerblue;
+}
+/*==END===== box styles =====*/
+
+/*==START===== about styles =====*/
+
+/*==START===== Flex Classes ==========*/
+
+/*===== START side by side column new solution for about page =====*/
+.baseFlexContainer{
+    display: flex;
+   
+    align-items: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+  
+    justify-content: space-between;
+  }
+
+  .centerFlexContainer{
+    display: flex;
+    
+    align-items: center;
+    width: 100%;
+    
+    justify-content: center;
+  }
+  
+  .leftFlexColumn{
+    display:flex;
+    flex-direction: column;
+    width: 40%;
+    
+    margin: 5px;
+    padding: 5px;
+    margin-left: 25px;
+
+    align-items: center;
+  }
+  
+  .rightFlexColumn{
+    display:flex;
+    flex-direction: column;
+    width: 40%;
+    
+    margin: 5px;
+    padding: 5px;
+    margin-right: 25px;
+    
+    align-items: center;
+  }
+
+  .centerFlex{
+    max-width:400px;
+	width:100%;
+	margin:0 auto;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 10px 5px 13px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0px 10px 5px 13px rgba(0,0,0,0.22);
+    box-shadow: 0px 10px 5px 13px rgba(0,0,0,0.22);
+  }
+  
+  .flexItem{
+    margin:15px;
+    padding: 15px;
+    
+  }
+/*===== END side by side column new solution for about page=====*/
+
+.flexContainer{ /*default flex container with wrapping items*/
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+	max-width: 1400px;	
+}
+
+.flexColumnContainer{
+    display: flex;
+    flex-direction: column;    
+}
+
+.flexItem{
+    flex-wrap: wrap;
+}
+
+.twoColFlexItem{
+    flex-wrap: wrap;
+    
+    flex: 1 1; 
+}
+
+.leftMainColumn{
+    margin-left: 18px;
+}
+
+.rightMainColumn{
+    margin-right: 18px;
+}
+
+.flexCenterTest{
+    align-self: center;
+    margin: auto;
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.flexLeftTest{
+    align-self: flex-start;
+    
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flexRightText{
+    align-self: flex-end;
+    
+    width: 45%;
+    margin-top: 10px;
+}
+/*==END===== Flex Classes ==========*/
+
+.articleStyle{
+    margin:20px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.articleStyle2{
+    margin:20px;
+    margin-left: 0px;
+}
+
+.articleStyle2h2{
+    margin-left:0px;
+}
+
+article a{
+    border: solid 2px black;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 5px;
+    
+    text-decoration: none;
+    padding-left:10px;
+    padding-right:10px;
+    color: black;
+}
+
+.myBtn{
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    width: 100px;
+    height: 40px;
+}
+
+.card{
+    padding: 10px;
+    width: 75%;
+    align-self: center;
+    
+}
+/*==END===== about styles =====*/
+
+.myForm{
+    display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+fieldset{
+    margin: 10px;
+}
+
+input{
+    border-radius: 5px;
+    
+    padding: 20px;
+}
+
+.topSpace{
+    margin-top: 50px;
+}
+
+.centerFlex textarea{
+    height: 200px;
+    width: 210px;
+    border-radius: 5px;
+}
+
+.contactForm{
+    background-color: rgb(115, 144, 168);
+}
+.contactForm:hover{
+    background-color: rgba(115, 144, 168, 0.479);
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}
